@@ -52,12 +52,12 @@ class App extends React.Component {
 
         <h1 className="title">Search Zip Codes By City Name</h1>
 
-<div className="search">
+        <div className="search">
 
-        <input type="text" placeholder="Enter City Name" onChange={this.searchCity} />
+          <input type="text" placeholder="Enter City Name" onChange={this.searchCity} />
 
-        {elements}
-</div>
+          {elements}
+        </div>
       </div>
 
     );
